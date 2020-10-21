@@ -31,7 +31,7 @@ class ProductConfig(Config):
     pass
 
 
-# 名字與類的映射關係
+# 名字與類的映射關係()
 config_map = {
     "develop": DevelopmentConfig,
     "product": ProductConfig
