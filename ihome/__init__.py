@@ -1,13 +1,15 @@
-# coding: utf-8
+# coding:utf-8
 
-import logging
-from flask import flask
-from config import config_map
+from flask import Flask
+from config import config_map
 from flask_sqlalchemy import SQLAlchemy
-import redis
+
 from flask_session import Session
 from flask_wtf import CSRFProtect
-from ihome import api_1_0  # 也可 from . import api_1_0
+# from ihome import api_1_0  # 也可 from . import api_1_0
+
+import redis
+import logging
 from logging.handlers import RotatingFileHandler
 
 # 資料庫

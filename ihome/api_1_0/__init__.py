@@ -1,6 +1,6 @@
 # coding:utf-8
 
-frmo flask import Blueprint
+from flask import Blueprint
 
 # 創建藍圖對象
 api = Blueprint("api_1_0", __name__)

@@ -1,5 +1,7 @@
 # coding:utf-8
 
+import redis
+
 class Config(object):
     """配置信息"""
     DEBUG = True
