@@ -5,6 +5,8 @@ import redis
 class Config(object):
     """配置信息"""
     DEBUG = True
+    HOST = '0.0.0.0'
+    PORT = 6666
 
     SECRET_KEY = "Xdfsk3902ldD#$**())_"
 
